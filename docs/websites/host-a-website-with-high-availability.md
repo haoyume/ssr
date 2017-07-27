@@ -2,7 +2,7 @@
 author:
   name: Phil Zona
   email: docs@linode.com
-description: 'How to configure a highly available web server stack'
+description: ‘Hosting sites with high availability will ensure your site stays up even if one of your servers has gone down. This guide shows you how to get started.’
 keywords: 'high availability,web server,failover, '
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 'Tuesday, July 12th, 2016'
@@ -17,6 +17,8 @@ external_resources:
 - '[Keepalived](http://www.keepalived.org/)'
 - '[XtraBackup](https://www.percona.com/doc/percona-xtrabackup/2.4/index.html)'
 ---
+
+![High-availability-image](/docs/assets/soh-git-assets/HA_Website.png)
 
 When deploying a website or application, one of the most important elements to consider is availability, or the period of time for which your content is accessible to users. High availability is a term used to describe server setups that eliminate single points of failure by offering redundancy, monitoring, and failover. This ensures that even if one component of your web stack goes down, the content will still be accessible. 
 
