@@ -7,7 +7,7 @@ keywords: 'NFS,Debian,network,file,system,wheezy'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 alias: ['networking/file-transfer/basic-nfs-debian/']
 contributor:
-    
+
 modified: Thursday, February 27th, 2014
 modified_by:
   name: Linode
@@ -56,7 +56,7 @@ Choose one Linode to be your NFS server. Follow the instructions below to config
 	: ~~~
 		/var/nfsroot	 <client linode private ip>/32(rw,root_squash,subtree_check)
 	~~~
-	
+
     Replace **\<client linode private ip\>** with the current private IP address of your second Linode.
 
 5.  Update the table of exported file systems with the following command:
